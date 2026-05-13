@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BorgeScripts Studios | Site oficial</title>
+    <link rel="shortcut icon" href="./imgs/Borgescripts.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/oye3tik.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div id="nav-div">
+                <img src="./imgs/Borgescripts.png" id="nav-logo">
+                <ul id="bttn-div1">
+                    <li><a href="../home/index.html" class="navBttn">Home</a></li>
+                    <li><a href="../services/index.html" class="navBttn">Serviços</a></li>
+                    <li><a href="../portfolio/index.html" class="navBttn">Portfólio</a></li>
+                    <li><a href="../about/index.html" class="navBttn">Sobre Nós</a></li>
+                    <li><a href="../contato/index.html" class="navBttn">Contato</a></li>
+                </ul>
+                <button class="menuBttn" onclick="abrirSidebar()"></button>
+                <ul id="bttn-div2" class="sidebar">
+                    <li><button class="closeBttn" onclick="fecharSidebar()"></button></li>
+                    <li><a href="../home/index.html" class="navBttn">Home</a></li>
+                    <li><a href="../services/index.html" class="navBttn">Serviços</a></li>
+                    <li><a href="../portfolio/index.html" class="navBttn">Portfólio</a></li>
+                    <li><a href="../about/index.html" class="navBttn">Sobre Nós</a></li>
+                    <li><a href="../contato/index.html" class="navBttn">Contato</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="inicio">
+            <div id="initTextArea">
+                <h1 class="title">Aqui o código é minha casa, e o resultado é o seu futuro</h1>
+                <h3 class="secondTitle">Nós da BorgeScripts, temos o compromisso total em fazer o melhor site possível com a melhor entrega e um preço justo e que cabe no seu bolso</h3>
+            </div>
+        </section>
+        <div class="transitionText">
+            <p>Aqui na BorgeScripts Studios você manda e nós fazemos assim como vc pediu e como os sonhos do seu negócio deseja, com uma equipe de profissionais 100% capacitados que vão te dar todo e qualquer suporte para qualquer problema o mais rápido possível sempre, abaixo alguns dos serviços que prestamos:</p>
+        </div>
+        <section id="services">
+            <h3 class="title headerTitle" id="servTitle">Serviços que prestamos</h3>
+            <div id="listServ">
+                <div class="itemList">
+                    <div class="pointList"><p>.</p></div> <p>Landing-page com hover de branding personalizado</p>
+                </div>
+                <div class="itemList">
+                    <div class="pointList"><p>.</p></div> <p>Implementação de experiências responsivas com abordagem mobile-first</p>
+                </div>
+                <div class="itemList">
+                    <div class="pointList"><p>.</p></div> <p>Arquitetura de componentes front-end com foco em UX e hierarquia visual</p>
+                </div>
+                <div class="itemList">
+                    <div class="pointList"><p>.</p></div> <p>Microinterações baseadas em estados de hover e transição de interface</p>
+                </div>
+                <div class="itemList">
+                    <div class="pointList" id="lastPoint"><p>.</p></div> <p>Refatoração e modernização de interfaces legadas</p>
+                </div>
+            </div>
+            <div class="moreBttnArea">
+                <button class="moreBttn" onclick="window.location.href='../services/index.html'"><strong>Veja mais serviços que também prestamos ></strong></button>
+            </div>
+        </section>
+        <div class="transitionText">
+            <p>Nós da BorgeScripts além do mais, possuímos um ótimo portfólio do qual nos orgulhamos e que com certeza mostra o nível de profissionalismo que possuímos</p>
+        </div>
+        <section id="portfolio">
+            <h3 class="title" id="portTitle">Nosso Portfólio</h3>
+            <p id="textPortfolio">Aqui alguns de nossos trabalhos:</p>
+            <div id="boxImgs">
+                <div id="boxImg1">
+                    <img src="./imgs/prtfl-1.png" class="imgs" id="img1">
+                </div>
+                <div id="boxImg2">
+                    <img src="./imgs/prtfl-2.png" class="imgs">
+                </div>
+            </div>
+            <div class="moreBttnArea">
+                <button class="moreBttn" onclick="window.location.href='../portfolio/index.html'"><strong>Veja mais do nosso portfólio ></strong></button>
+            </div>
+        </section>
+        <section id="about">
+            <h3 class="title" id="aboutTitle">Sobre Nós</h3>
+            <div id="containerGrid">
+                <p class="aboutText1">A BorgeScripts Studios nasceu do desejo de utilizar a programação para facilitar o dia a dia das pessoas.<br> Há 3 anos, o fundador iniciou sua jornada na área de desenvolvimento, criando seus primeiros scripts e estudando programação de forma autodidata. Após cerca de 1 ano de dedicação, evoluiu para o desenvolvimento web.</p>
+                <img src="./imgs/caraProgramando.jpg" alt="" id="gridImg" class="img1">
+                <img src="./imgs/caraProgramando.jpg" alt="" id="gridImg" class="img2">
+                <p class="aboutText2">Hoje, com experiência prática na área, a BorgeScripts Studios foi criada com o objetivo de ajudar novos desenvolvedores a iniciarem sua jornada e também oferecer soluções acessíveis para pessoas e pequenos projetos que buscam presença digital sem altos custos.</p>
+            </div>
+            <div class="moreBttnArea">
+                <button class="moreBttn" onclick="window.location.href='../about/index.html'"><strong>Veja mais sobre nossa história ></strong></button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div id="footer">
+            <p>© 2026 BorgeScripts Studios</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

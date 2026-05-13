@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BorgeScripts Studios | Rede de Contato</title>
+    <link rel="shortcut icon" href="./imgs/Borgescripts.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/oye3tik.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div id="nav-div">
+                <img src="./imgs/Borgescripts.png" id="nav-logo">
+                <ul id="bttn-div1">
+                    <li><a href="../home/index.html" class="navBttn">Home</a></li>
+                    <li><a href="../services/index.html" class="navBttn">Serviços</a></li>
+                    <li><a href="../portfolio/index.html" class="navBttn">Portfólio</a></li>
+                    <li><a href="../about/index.html" class="navBttn">Sobre Nós</a></li>
+                    <li><a href="../contato/index.html" class="navBttn">Contato</a></li>
+                </ul>
+                <button class="menuBttn" onclick="abrirSidebar()"></button>
+                <ul id="bttn-div2" class="sidebar">
+                    <li><button class="closeBttn" onclick="fecharSidebar()"></button></li>
+                    <li><a href="../home/index.html" class="navBttn">Home</a></li>
+                    <li><a href="../services/index.html" class="navBttn">Serviços</a></li>
+                    <li><a href="../portfolio/index.html" class="navBttn">Portfólio</a></li>
+                    <li><a href="../about/index.html" class="navBttn">Sobre Nós</a></li>
+                    <li><a href="../contato/index.html" class="navBttn">Contato</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="inicio">
+            <div id="initTextArea">
+                <h1 class="title">Ações falam mais que palavras, então aqui estão alguns trabalhos dos quais já fizemos</h1>
+                <h3 class="secondTitle">Nós podemos assegurar qualidade, e nosso portfólio prova isso</h3>
+            </div>
+        </section>
+        <section id="portfolio">
+            <div id="prtflList">
+                <div class="prtflItem">
+                    <img src="./imgs/prtfl-1.png" alt="" class="prtflImg">
+                    <div class="cardPrtfl">
+                        <button class="cardImg" id="img1"></button>
+                        <div class="cardText">
+                            <div class="minCardTxt">
+                                <h3 class="cardTitle">Form Page de Cadastro (empresa ficticia)</h3>
+                                <p>Uma página com uma tela de cadastro dinamica que reage de diferentes formas dependendo de quais informações foram colocadas pelo usuario (A página não coleta dado algum apenas reage, pois é uma página de demonstração)</p>
+                            </div>
+                            <div class="linkArea">
+                                <h3 class="cardTitle">Link:</h3>
+                                <p><a href="form-page-delta-red.vercel.app">form-page-delta-red.vercel.app</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div id="footer">
+            <p>© 2026 BorgeScripts Studios</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
